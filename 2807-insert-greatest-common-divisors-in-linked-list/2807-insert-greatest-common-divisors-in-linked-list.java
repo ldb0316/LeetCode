@@ -34,7 +34,6 @@ class Solution {
         }
         
         for(int i = resultList.size()-1 ; i >=0 ; i--) {
-            resultList.get(i);
             if(i == resultList.size()-1) {
                 resultNode = new ListNode(resultList.get(i));    
             } else {
@@ -46,6 +45,8 @@ class Solution {
         return resultNode;
         
     }
+    
+    
     
     public int getMaxDv(int val1, int val2) {
         int min = val1;
